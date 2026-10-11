@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>HERIMALALA MANOANIAVO — C/C++, Python and GIS Developer</title>
+<meta name="description" content="Portfolio of HERIMALALA MANOANIAVO, C/C++, Python and GIS developer in Antananarivo: QGIS plugins, LiDAR processing, PostGIS and web apps.">
+<meta name="author" content="HERIMALALA MANOANIAVO">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#08111f">
+
+<!-- URL canonique et versions linguistiques -->
+<link rel="canonical" href="https://hery5993.github.io/herimalala/en/">
+<link rel="alternate" hreflang="fr" href="https://hery5993.github.io/herimalala/">
+<link rel="alternate" hreflang="en" href="https://hery5993.github.io/herimalala/en/">
+<link rel="alternate" hreflang="x-default" href="https://hery5993.github.io/herimalala/">
+
+<!-- Icônes -->
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+
+<!-- Open Graph (Facebook, LinkedIn, WhatsApp…) -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="HERIMALALA MANOANIAVO">
+<meta property="og:title" content="HERIMALALA MANOANIAVO — C/C++, Python and GIS Developer">
+<meta property="og:description" content="Portfolio of HERIMALALA MANOANIAVO, C/C++, Python and GIS developer in Antananarivo: QGIS plugins, LiDAR processing, PostGIS and web apps.">
+<meta property="og:url" content="https://hery5993.github.io/herimalala/en/">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:image" content="https://hery5993.github.io/herimalala/assets/og-image-en.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Turquoise contour lines on a dark navy background with the name HERIMALALA MANOANIAVO, C/C++, Python and GIS developer">
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="HERIMALALA MANOANIAVO — C/C++, Python and GIS Developer">
+<meta name="twitter:description" content="Portfolio of HERIMALALA MANOANIAVO, C/C++, Python and GIS developer in Antananarivo: QGIS plugins, LiDAR processing, PostGIS and web apps.">
+<meta name="twitter:image" content="https://hery5993.github.io/herimalala/assets/og-image-en.png">
+<meta name="twitter:image:alt" content="Turquoise contour lines on a dark navy background with the name HERIMALALA MANOANIAVO, C/C++, Python and GIS developer">
+
+<!-- Données structurées (schema.org) -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://hery5993.github.io/herimalala/#person",
+      "name": "HERIMALALA MANOANIAVO",
+      "jobTitle": "C/C++, Python and GIS Developer",
+      "url": "https://hery5993.github.io/herimalala/",
+      "email": "manue955@outlook.com",
+      "telephone": "+261378754800",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Antananarivo",
+        "addressCountry": "MG"
+      },
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Futurmap Data"
+      },
+      "knowsAbout": [
+        "C",
+        "C++",
+        "Python",
+        "QGIS",
+        "PyQGIS",
+        "PostgreSQL",
+        "PostGIS",
+        "GDAL",
+        "PDAL",
+        "LAStools",
+        "LiDAR",
+        "Leaflet",
+        "React",
+        "Vue.js",
+        "PHP",
+        "Symfony",
+        "FastAPI",
+        "Flask",
+        "GIS"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://hery5993.github.io/herimalala/#website",
+      "url": "https://hery5993.github.io/herimalala/",
+      "name": "HERIMALALA MANOANIAVO — Portfolio",
+      "inLanguage": [
+        "fr",
+        "en"
+      ],
+      "publisher": {
+        "@id": "https://hery5993.github.io/herimalala/#person"
+      }
+    },
+    {
+      "@type": "ProfilePage",
+      "url": "https://hery5993.github.io/herimalala/en/",
+      "inLanguage": "en",
+      "name": "HERIMALALA MANOANIAVO — C/C++, Python and GIS Developer",
+      "description": "Portfolio of HERIMALALA MANOANIAVO, C/C++, Python and GIS developer in Antananarivo: QGIS plugins, LiDAR processing, PostGIS and web apps.",
+      "dateModified": "2026-10-11",
+      "isPartOf": {
+        "@id": "https://hery5993.github.io/herimalala/#website"
+      },
+      "mainEntity": {
+        "@id": "https://hery5993.github.io/herimalala/#person"
+      }
+    }
+  ]
+}</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  /* ============ Jetons de design ============ */
+  :root {
+    --bg: #08111f;
+    --bg-2: #0d1727;
+    --panel: #111d31;
+    --line: #1e2f49;
+    --line-2: #2c4466;
+    --text: #dbe6f4;
+    --strong: #eef5fc;
+    --muted: #93a6c2;
+    --faint: #6f86a6;
+    --cyan: #35e0d2;
+    --green: #6dfba0;
+    --f-head: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+    --f-body: "IBM Plex Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+    --f-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+    color-scheme: dark;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  *, *::before, *::after { box-sizing: inherit; }
+  [hidden] { display: none !important; }
+  html {
+    background: var(--bg);
+    scroll-behavior: smooth;
+    scroll-padding-top: calc(env(safe-area-inset-top, 0px) + 7.5rem);
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 400 1.0625rem/1.65 var(--f-body);
+    overflow-x: hidden;
+  }
+  /* Grille cartographique en fond */
+  body::before {
+    content: "";
+    position: fixed; inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    background-image:
+      linear-gradient(rgba(53,224,210,.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(53,224,210,.05) 1px, transparent 1px);
+    background-size: 64px 64px;
+    -webkit-mask-image: radial-gradient(ellipse at 20% 0%, #000 0%, transparent 75%);
+            mask-image: radial-gradient(ellipse at 20% 0%, #000 0%, transparent 75%);
+  }
+  main, header, footer { position: relative; z-index: 1; }
+  a { color: inherit; }
+  :focus-visible { outline: 2px solid var(--green); outline-offset: 3px; border-radius: 3px; }
+  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .wrap { max-width: 1160px; margin: 0 auto; padding: 0 clamp(1rem, 4vw, 2rem); }
+
+  .skip {
+    position: absolute; left: 1rem; top: -4rem; z-index: 50;
+    background: var(--cyan); color: #03222a; padding: .6rem 1rem; border-radius: 4px; font-weight: 600; text-decoration: none;
+  }
+  .skip:focus { top: calc(env(safe-area-inset-top, 0px) + .6rem); }
+
+  /* ============ En-tête ============ */
+  .top {
+    position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20;
+    background: rgba(8,17,31,.84);
+    -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+  }
+  .bar {
+    max-width: 1160px; margin: 0 auto;
+    padding: .55rem clamp(1rem, 4vw, 2rem);
+    display: flex; flex-wrap: wrap; align-items: center; gap: .25rem 1rem;
+  }
+  .brand {
+    order: 1; display: inline-flex; align-items: center; gap: .6rem;
+    font: 500 .95rem var(--f-mono); letter-spacing: .04em; text-decoration: none; color: var(--strong);
+    min-height: 2.75rem;
+  }
+  .brand svg { width: 24px; height: 24px; }
+  nav.main { order: 2; margin-left: auto; display: flex; gap: .1rem; overflow-x: auto; scrollbar-width: none; }
+  nav.main::-webkit-scrollbar { display: none; }
+  nav.main a {
+    display: inline-flex; align-items: center; min-height: 2.75rem;
+    padding: 0 .75rem; color: var(--muted); text-decoration: none; font-size: .95rem; white-space: nowrap;
+    border-bottom: 2px solid transparent; transition: color .2s, border-color .2s;
+  }
+  nav.main a:hover { color: var(--strong); }
+  nav.main a[aria-current="true"] { color: var(--cyan); border-bottom-color: var(--cyan); }
+  .lang { order: 3; display: inline-flex; border: 1px solid var(--line-2); border-radius: 4px; overflow: hidden; }
+  .lang a {
+    display: inline-flex; align-items: center; justify-content: center;
+    font: 500 .85rem var(--f-mono); letter-spacing: .06em; text-decoration: none;
+    min-width: 2.75rem; min-height: 2.5rem; padding: 0 .6rem;
+    background: transparent; color: var(--muted);
+  }
+  .lang a + a { border-left: 1px solid var(--line-2); }
+  .lang a:hover { color: var(--strong); }
+  .lang a[aria-current="true"] { background: var(--cyan); color: #03222a; }
+  .lang a:focus-visible { outline-offset: -3px; }
+  @media (max-width: 719px) {
+    .lang { order: 2; margin-left: auto; }
+    nav.main { order: 3; flex-basis: 100%; margin-left: -.75rem; }
+  }
+
+  /* ============ Hero ============ */
+  .hero {
+    position: relative; overflow: hidden;
+    min-height: min(88vh, 800px);
+    display: flex; align-items: center;
+    border-bottom: 1px solid var(--line);
+  }
+  #topo { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+  .hero::after {
+    content: ""; position: absolute; inset: 0; pointer-events: none;
+    background: linear-gradient(180deg, rgba(8,17,31,.55), rgba(8,17,31,.9));
+  }
+  @media (min-width: 900px) {
+    .hero::after { background: linear-gradient(90deg, rgba(8,17,31,.94) 0%, rgba(8,17,31,.62) 55%, rgba(8,17,31,.2) 100%); }
+  }
+  .hero-inner { position: relative; z-index: 2; width: 100%; padding-top: clamp(3.5rem, 9vw, 6rem); padding-bottom: clamp(5rem, 9vw, 7rem); }
+  h1 {
+    margin: 0 0 1.25rem;
+    font: 800 clamp(2.6rem, 11vw, 6.4rem)/.94 var(--f-head);
+    letter-spacing: -.02em; color: var(--strong);
+  }
+  h1 span { display: block; }
+  .role { margin: 0 0 1.5rem; font: 500 clamp(1rem, 2.6vw, 1.35rem) var(--f-mono); color: var(--cyan); }
+  .pitch { max-width: 34rem; margin: 0; font-size: 1.15rem; color: var(--text); }
+  .actions { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 2.2rem; }
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; min-height: 3rem;
+    padding: .6rem 1.3rem; border: 1px solid var(--cyan); border-radius: 4px;
+    font-weight: 600; text-decoration: none; transition: background .2s, color .2s;
+  }
+  .btn-primary { background: var(--cyan); color: #03222a; }
+  .btn-primary:hover { background: #7af2e8; }
+  .btn-ghost { color: var(--cyan); background: rgba(53,224,210,.07); }
+  .btn-ghost:hover { background: rgba(53,224,210,.18); }
+
+  .hero-foot { position: absolute; left: 0; right: 0; bottom: 1rem; z-index: 2; pointer-events: none; }
+  .hero-foot .wrap { display: flex; justify-content: space-between; align-items: flex-end; gap: 1rem; }
+  .readout { margin: 0; font: 400 .78rem var(--f-mono); color: var(--faint); letter-spacing: .03em; white-space: pre; }
+  .code {
+    display: none; margin: 0; padding: .9rem 1.1rem; overflow: hidden;
+    font: 400 .8rem/1.6 var(--f-mono); color: var(--muted);
+    background: rgba(13,23,39,.72); border: 1px solid var(--line-2); border-radius: 6px;
+  }
+  .code .c { color: #647ca0; } .code .k { color: var(--cyan); } .code .t { color: var(--green); } .code .n { color: var(--text); }
+  @media (min-width: 1100px) { .code { display: block; } }
+
+  /* Séquence d'arrivée du hero */
+  @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+  .rise { animation: rise .8s cubic-bezier(.2,.7,.2,1) both; animation-delay: var(--d, 0s); }
+  #topo { animation: fadein 1.6s ease both .1s; }
+  @keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+
+  /* ============ Sections ============ */
+  .section { padding: clamp(4rem, 9vw, 7rem) 0; }
+  h2 { margin: 0; font: 700 clamp(1.9rem, 4.6vw, 3rem)/1.05 var(--f-head); color: var(--strong); letter-spacing: -.01em; }
+  /* règle graduée, comme l'échelle d'une carte */
+  .ruler {
+    height: 10px; max-width: 22rem; margin: 1.1rem 0 2.6rem;
+    border-bottom: 1px solid var(--line-2);
+    background:
+      repeating-linear-gradient(90deg, var(--line-2) 0 1px, transparent 1px 12px) left bottom / 100% 6px no-repeat,
+      repeating-linear-gradient(90deg, var(--cyan) 0 1px, transparent 1px 60px) left bottom / 100% 10px no-repeat;
+  }
+
+  /* Champs modifiables (expérience) */
+  .ed {
+    display: block; width: 100%; min-height: 3rem; padding: .7rem .85rem;
+    border: 1px dashed var(--line-2); border-radius: 4px;
+    background: rgba(8,17,31,.5); color: var(--text);
+    font: inherit; white-space: pre-wrap; overflow-wrap: anywhere; outline: none;
+    transition: border-color .2s, box-shadow .2s;
+  }
+  .ed:empty::before { content: attr(data-ph); color: var(--muted); pointer-events: none; }
+  .ed:hover { border-color: var(--cyan); }
+  .ed:focus { border-color: var(--cyan); box-shadow: 0 0 0 3px rgba(53,224,210,.2); }
+
+  /* Expérience */
+  .company { border: 1px solid var(--line); background: var(--panel); border-radius: 6px; padding: clamp(1.25rem, 3.5vw, 2.2rem); max-width: 52rem; }
+  .company h3 { margin: 0; font: 700 clamp(1.4rem, 3vw, 1.8rem)/1.2 var(--f-head); color: var(--strong); }
+  .timeline { list-style: none; margin: 1.8rem 0 0; padding: 0; position: relative; }
+  .timeline::before {
+    content: ""; position: absolute; left: 7px; top: .6rem; bottom: .6rem; width: 1px;
+    background: linear-gradient(var(--cyan), var(--line-2));
+  }
+  .role-item { position: relative; padding: 0 0 2.2rem 2.4rem; }
+  .role-item:last-child { padding-bottom: 0; }
+  .role-item::before {
+    content: ""; position: absolute; left: 0; top: .35rem; width: 15px; height: 15px; border-radius: 50%;
+    border: 2px solid var(--cyan); background: var(--panel);
+  }
+  .role-item:last-child::before { background: var(--cyan); box-shadow: 0 0 0 5px rgba(53,224,210,.18); }
+  .when { margin: 0; font: 500 .92rem var(--f-mono); color: var(--cyan); }
+  .role-name { margin: .15rem 0 .9rem; font: 600 1.3rem/1.3 var(--f-body); color: var(--strong); }
+
+  /* Compétences = panneau de couches SIG */
+  .layers { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 17rem), 1fr)); }
+  .layer { border: 1px solid var(--line); background: var(--panel); border-radius: 6px; padding: 1.25rem; }
+  .layer h3 { display: flex; align-items: center; gap: .65rem; margin: 0 0 1rem; font: 600 1.02rem/1.3 var(--f-body); color: var(--strong); }
+  .layer h3 svg { flex: none; width: 20px; height: 20px; fill: none; stroke: var(--cyan); stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+  .chips { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .5rem; }
+  .chips li {
+    font: 500 .92rem var(--f-mono); padding: .3rem .65rem; color: var(--text);
+    border: 1px solid var(--line-2); border-radius: 3px; background: rgba(53,224,210,.06);
+  }
+  .layer.learning { grid-column: 1 / -1; border-style: dashed; border-color: var(--line-2); background: transparent; }
+  .layer.learning h3 svg { stroke: var(--green); }
+  .layer.learning .chips li { border-style: dashed; border-color: rgba(109,251,160,.55); background: rgba(109,251,160,.06); }
+
+  /* Projets */
+  .projects { display: grid; gap: 1.1rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 19.5rem), 1fr)); }
+  .proj { display: flex; flex-direction: column; border: 1px solid var(--line); background: var(--panel); border-radius: 6px; overflow: hidden; transition: border-color .2s; }
+  .proj:hover { border-color: var(--line-2); }
+  .media { aspect-ratio: 16 / 9; background: var(--bg-2); border-bottom: 1px solid var(--line); overflow: hidden; }
+  .media img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .proj-body { display: flex; flex-direction: column; gap: .9rem; padding: 1.15rem 1.2rem 1.35rem; flex: 1; }
+  .proj h3 { margin: 0; font: 700 1.25rem/1.25 var(--f-head); color: var(--strong); }
+  .chips.tech { gap: .4rem; }
+  .chips.tech li { font-size: .8rem; padding: .15rem .5rem; color: var(--cyan); background: rgba(53,224,210,.07); border-color: rgba(53,224,210,.35); }
+  .points { list-style: none; margin: 0; padding: 0; display: grid; gap: .45rem; font-size: .97rem; line-height: 1.5; }
+  .points li { position: relative; padding-left: 1.1rem; }
+  .points li::before { content: ""; position: absolute; left: 0; top: .6em; width: 6px; height: 6px; background: var(--cyan); opacity: .8; }
+  .open {
+    align-self: flex-start; display: inline-flex; align-items: center; margin-top: auto; padding: 0 .9rem; min-height: 2.75rem;
+    border: 1px solid var(--cyan); border-radius: 4px; color: var(--cyan); text-decoration: none; font-size: .92rem; font-weight: 500;
+  }
+  .open:hover { background: rgba(53,224,210,.16); }
+
+  /* Contact */
+  .contact-grid { display: grid; gap: 2rem; }
+  @media (min-width: 860px) { .contact-grid { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 4rem; } }
+  .lead { margin: 0; max-width: 26rem; color: var(--text); }
+  .contact-list { list-style: none; margin: 0; padding: 0; border-bottom: 1px solid var(--line); }
+  .contact-list a {
+    display: grid; gap: .1rem 1.5rem; padding: 1.15rem .25rem; text-decoration: none; border-top: 1px solid var(--line);
+    transition: background .2s;
+  }
+  @media (min-width: 560px) { .contact-list a { grid-template-columns: 7.5rem 1fr; align-items: baseline; } }
+  .contact-list .k { color: var(--muted); font-size: .92rem; }
+  .contact-list .v { font: 500 clamp(1rem, 2.5vw, 1.35rem) var(--f-mono); color: var(--strong); overflow-wrap: anywhere; transition: color .2s; }
+  .contact-list a:hover .v { color: var(--cyan); }
+  .contact-list a:hover { background: rgba(53,224,210,.04); }
+  .contact-list a:focus-visible { outline-offset: -3px; }
+
+  /* Pied de page */
+  footer { border-top: 1px solid var(--line); padding: 1.8rem 0 2.2rem; }
+  footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .8rem 1.5rem; font: 400 .85rem var(--f-mono); color: var(--muted); }
+  footer a { display: inline-flex; align-items: center; min-height: 2.5rem; text-decoration: none; color: var(--muted); }
+  footer a:hover { color: var(--cyan); }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .rise, #topo { animation: none; }
+    * { transition: none !important; }
+  }
+</style>
+</head>
+<body>
+<a class="skip" href="#experience">Skip to content</a>
+
+<header class="top">
+  <div class="bar">
+    <a class="brand" href="#accueil" aria-label="HERIMALALA MANOANIAVO">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#35e0d2" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="6.5"/><path d="M12 1.5v6M12 16.5v6M1.5 12h6M16.5 12h6"/><circle cx="12" cy="12" r="1.2" fill="#35e0d2" stroke="none"/></svg>
+      H.M
+    </a>
+    <nav class="main" aria-label="Main navigation">
+      <a href="#experience">Experience</a>
+      <a href="#competences">Skills</a>
+      <a href="#projets">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language">
+      <a href="../index.html" hreflang="fr" lang="fr" aria-label="Français">FR</a>
+      <a href="index.html" hreflang="en" lang="en" aria-label="English" aria-current="true">EN</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- ========== PRÉSENTATION ========== -->
+  <section class="hero" id="accueil">
+    <canvas id="topo" aria-hidden="true"></canvas>
+    <div class="wrap hero-inner">
+      <h1>
+        <span class="rise" style="--d:.15s">HERIMALALA</span>
+        <span class="rise" style="--d:.3s">MANOANIAVO</span>
+      </h1>
+      <p class="role rise" style="--d:.5s">C/C++ · Python · GIS Developer</p>
+      <p class="pitch rise" style="--d:.65s">I design software and geospatial solutions, from low-level development to web applications. I am also interested in Data Science and Deep Learning.</p>
+      <div class="actions rise" style="--d:.8s">
+        <a class="btn btn-primary" href="#projets">Explore my projects</a>
+        <a class="btn btn-ghost" href="#contact">Get in touch</a>
+      </div>
+    </div>
+    <div class="hero-foot" aria-hidden="true">
+      <div class="wrap">
+        <p class="readout" id="readout">x 0.00   y 0.00   z +0.00</p>
+        <pre class="code"><code><span class="c">// serveur.c</span>
+<span class="k">#include</span> &lt;sys/socket.h&gt;
+<span class="k">#include</span> &lt;netinet/in.h&gt;
+
+<span class="k">int</span> fd = <span class="t">socket</span>(AF_INET, SOCK_STREAM, <span class="n">0</span>);
+<span class="t">bind</span>(fd, (<span class="k">struct</span> sockaddr *)&amp;addr, <span class="k">sizeof</span> addr);
+<span class="t">listen</span>(fd, <span class="n">5</span>);
+<span class="k">int</span> client = <span class="t">accept</span>(fd, <span class="k">NULL</span>, <span class="k">NULL</span>);</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXPÉRIENCE ========== -->
+  <section class="section" id="experience" aria-labelledby="h-exp">
+    <div class="wrap">
+      <h2 id="h-exp">Professional experience</h2>
+      <div class="ruler" aria-hidden="true"></div>
+      <div class="company">
+        <h3>Futurmap Data</h3>
+        <ol class="timeline">
+          <li class="role-item">
+            <p class="when">Since June 2021</p>
+            <p class="role-name">C++ Developer</p>
+            <!-- À compléter : missions, responsabilités, réalisations -->
+            <div class="ed" contenteditable="true" role="textbox" aria-multiline="true" aria-label="Role details" data-k="exp:0" data-ph="Add the tasks, responsibilities and achievements for this role."></div>
+          </li>
+          <li class="role-item">
+            <p class="when">Since 2023</p>
+            <p class="role-name">C++ and GIS Developer</p>
+            <div class="ed" contenteditable="true" role="textbox" aria-multiline="true" aria-label="Role details" data-k="exp:1" data-ph="Add the tasks, responsibilities and achievements for this role."></div>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== COMPÉTENCES ========== -->
+  <section class="section" id="competences" aria-labelledby="h-skills">
+    <div class="wrap">
+      <h2 id="h-skills">Technical skills</h2>
+      <div class="ruler" aria-hidden="true"></div>
+      <div class="layers">
+        <section class="layer" aria-labelledby="g1">
+          <h3 id="g1"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l-4 5 4 5M17 7l4 5-4 5M14 4l-4 16"/></svg><span>Development</span></h3>
+          <ul class="chips"><li>C</li><li>C++</li><li>Python</li></ul>
+        </section>
+        <section class="layer" aria-labelledby="g2">
+          <h3 id="g2"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2zM9 4v14M15 6v14"/></svg><span>GIS and geospatial</span></h3>
+          <ul class="chips"><li>GIS</li></ul>
+        </section>
+        <section class="layer" aria-labelledby="g3">
+          <h3 id="g3"><svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v12c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg><span>Databases</span></h3>
+          <ul class="chips"><li>PostgreSQL</li></ul>
+        </section>
+        <section class="layer" aria-labelledby="g4">
+          <h3 id="g4"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18"/></svg><span>Web development</span></h3>
+          <ul class="chips"><li>React</li><li>Vue.js</li><li>PHP</li><li>Symfony</li></ul>
+        </section>
+        <section class="layer" aria-labelledby="g5">
+          <h3 id="g5"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="12" r="2.5"/><path d="M8.5 12h7"/></svg><span>Python APIs and frameworks</span></h3>
+          <ul class="chips"><li>FastAPI</li><li>Flask</li></ul>
+        </section>
+        <section class="layer" aria-labelledby="g6">
+          <h3 id="g6"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="14" height="10" rx="1.5"/><rect x="13" y="9" width="8" height="11" rx="1.5"/></svg><span>Other areas</span></h3>
+          <ul class="chips"><li>Responsive Web Design</li></ul>
+        </section>
+        <section class="layer learning" aria-labelledby="g7">
+          <h3 id="g7"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 19c5 0 5-7 9-7s4-7 9-7"/><circle cx="21" cy="5" r="1.2"/></svg><span>Currently learning</span></h3>
+          <ul class="chips"><li>Data Science</li><li>Deep Learning</li></ul>
+        </section>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJETS ========== -->
+  <section class="section" id="projets" aria-labelledby="h-proj">
+    <div class="wrap">
+      <h2 id="h-proj">Selected projects</h2>
+      <div class="ruler" aria-hidden="true"></div>
+      <!--
+        Pour ajouter un lien vers un dépôt ou une démo, insérer dans .proj-body d'une carte :
+        <a class="open" href="https://…" target="_blank" rel="noopener noreferrer">Voir le projet</a>
+        Pour remplacer une illustration par une vraie capture : changer le src de l'image
+        (format 16/9 recommandé, ex. assets/projects/ma-capture.png).
+      -->
+      <div class="projects">
+
+        <article class="proj" aria-labelledby="pj1">
+          <div class="media"><img src="../assets/projects/qgis-network-tools.svg" alt="" width="320" height="180" loading="lazy" decoding="async"></div>
+          <div class="proj-body">
+            <h3 id="pj1">QGIS Network Tools</h3>
+            <ul class="chips tech" aria-label="Technologies used"><li>Python</li><li>PyQGIS</li><li>NetworkX</li><li>QGIS</li></ul>
+            <ul class="points"><li>Processing of network data (cadastre, WFS, IGN, etc.)</li><li>Spatial connectivity analysis</li><li>GIS workflow automation</li></ul>
+          </div>
+        </article>
+
+        <article class="proj" aria-labelledby="pj2">
+          <div class="media"><img src="../assets/projects/pdal-pipeline-builder.svg" alt="" width="320" height="180" loading="lazy" decoding="async"></div>
+          <div class="proj-body">
+            <h3 id="pj2">PDAL Pipeline Builder</h3>
+            <ul class="chips tech" aria-label="Technologies used"><li>Python</li><li>PyQGIS</li></ul>
+            <ul class="points"><li>Automatic creation of PDAL pipelines</li><li>Generation of routine scripts for multi-file processing</li></ul>
+          </div>
+        </article>
+
+        <article class="proj" aria-labelledby="pj3">
+          <div class="media"><img src="../assets/projects/aoi-builder.svg" alt="" width="320" height="180" loading="lazy" decoding="async"></div>
+          <div class="proj-body">
+            <h3 id="pj3">AOI Builder</h3>
+            <ul class="chips tech" aria-label="Technologies used"><li>Python</li><li>PyQGIS</li></ul>
+            <ul class="points"><li>Automatic creation of areas of interest</li><li>Preparation of multi-source GIS data</li></ul>
+          </div>
+        </article>
+
+        <article class="proj" aria-labelledby="pj4">
+          <div class="media"><img src="../assets/projects/lidar-processing-tools.svg" alt="" width="320" height="180" loading="lazy" decoding="async"></div>
+          <div class="proj-body">
+            <h3 id="pj4">LiDAR Processing Tools</h3>
+            <ul class="chips tech" aria-label="Technologies used"><li>Python</li><li>PDAL</li><li>LAStools</li></ul>
+            <ul class="points"><li>Filtering and classification of point clouds</li><li>Terrain and object extraction</li></ul>
+          </div>
+        </article>
+
+        <article class="proj" aria-labelledby="pj5">
+          <div class="media"><img src="../assets/projects/terrain-contour-tools.svg" alt="" width="320" height="180" loading="lazy" decoding="async"></div>
+          <div class="proj-body">
+            <h3 id="pj5">Terrain Model &amp; Contour Tools</h3>
+            <ul class="chips tech" aria-label="Technologies used"><li>Python</li><li>GDAL</li><li>QGIS</li></ul>
+            <ul class="points"><li>DEM/DTM processing</li><li>Contour line generation</li><li>Raster analysis</li></ul>
+          </div>
+        </article>
+
+        <article class="proj" aria-labelledby="pj6">
+          <div class="media"><img src="../assets/projects/web-gis-application.svg" alt="" width="320" height="180" loading="lazy" decoding="async"></div>
+          <div class="proj-body">
+            <h3 id="pj6">Web GIS Application</h3>
+            <ul class="chips tech" aria-label="Technologies used"><li>Leaflet</li><li>PHP</li><li>PostgreSQL/PostGIS</li></ul>
+            <ul class="points"><li>Interactive mapping</li><li>Spatial data management</li></ul>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section" id="contact" aria-labelledby="h-contact">
+    <div class="wrap">
+      <h2 id="h-contact">Contact</h2>
+      <div class="ruler" aria-hidden="true"></div>
+      <div class="contact-grid">
+        <p class="lead">To talk about a project or a collaboration, use any of the details below.</p>
+        <ul class="contact-list">
+          <li><a href="mailto:manue955@outlook.com"><span class="k">Email</span><span class="v">manue955@outlook.com</span></a></li>
+          <li><a href="mailto:herimalalamanoaniavo@gmail.com"><span class="k">Email</span><span class="v">herimalalamanoaniavo@gmail.com</span></a></li>
+          <li><a href="tel:+261378754800"><span class="k">Phone</span><span class="v">+261 378 754 800</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 HERIMALALA MANOANIAVO</span>
+    <a href="#accueil">Back to top</a>
+  </div>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+  var $ = function (s, r) { return (r || document).querySelector(s); };
+  var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
+  var store = {
+    get: function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
+    set: function (k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+  };
+
+  /* ---------- Champs modifiables de l'expérience (texte gardé dans le navigateur) ---------- */
+  $$('[data-k]').forEach(function (el) {
+    var key = 'hm:' + el.dataset.k, saved = store.get(key);
+    if (saved) el.textContent = saved;
+    el.addEventListener('input', function () {
+      var v = el.innerText.replace(/\u00a0/g, ' ');
+      if (!v.trim()) { el.textContent = ''; v = ''; }
+      store.set(key, v);
+    });
+    el.addEventListener('paste', function (e) {
+      e.preventDefault();
+      var t = (e.clipboardData || window.clipboardData).getData('text');
+      document.execCommand('insertText', false, t);
+    });
+  });
+
+  /* ---------- Navigation : section active ---------- */
+  if ('IntersectionObserver' in window) {
+    var links = {};
+    $$('nav.main a').forEach(function (a) { links[a.getAttribute('href').slice(1)] = a; });
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) {
+          Object.keys(links).forEach(function (k) { links[k].removeAttribute('aria-current'); });
+          if (links[en.target.id]) links[en.target.id].setAttribute('aria-current', 'true');
+        }
+      });
+    }, { rootMargin: '-45% 0px -50% 0px' });
+    Object.keys(links).forEach(function (id) { var s = document.getElementById(id); if (s) io.observe(s); });
+  }
+
+  /* ---------- Courbes de niveau (marching squares) ---------- */
+  var cv = $('#topo'); if (!cv || !cv.getContext) return;
+  var ctx = cv.getContext('2d'), hero = $('.hero'), readout = $('#readout');
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var W = 0, H = 0, cell = 18, cols = 0, rows = 0, vals = null, frame = 0, last = 0, raf = 0, visible = true;
+  var P = { x: 0, y: 0, tx: 0, ty: 0, amp: 0, on: false };
+  var LEVELS = []; for (var k = -7; k <= 7; k++) LEVELS.push(k * 0.25);
+
+  function field(px, py, t) {
+    var x = px / 260, y = py / 260;
+    var v = Math.sin(x * 1.2 + t * 0.18) * Math.cos(y * 1.0 - t * 0.14)
+          + 0.55 * Math.sin(x * 2.1 + y * 1.6 + t * 0.11)
+          + 0.35 * Math.cos(x * 0.6 - y * 2.2 - t * 0.09);
+    if (P.amp > 0.01) {
+      var dx = px - P.x, dy = py - P.y;
+      v += 1.1 * P.amp * Math.exp(-(dx * dx + dy * dy) / (2 * 140 * 140));
+    }
+    return v;
+  }
+  function seg(x1, y1, x2, y2) { ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); }
+
+  function draw(t) {
+    var tt = t / 1000;
+    P.x += (P.tx - P.x) * 0.18; P.y += (P.ty - P.y) * 0.18;
+    P.amp += ((P.on ? 1 : 0) - P.amp) * 0.07;
+    var j, i;
+    for (j = 0; j < rows; j++) for (i = 0; i < cols; i++) vals[j * cols + i] = field(i * cell, j * cell, tt);
+    ctx.clearRect(0, 0, W, H);
+    ctx.lineJoin = 'round'; ctx.lineCap = 'round';
+    for (var li = 0; li < LEVELS.length; li++) {
+      var L = LEVELS[li], major = (li - 7) % 4 === 0;
+      ctx.beginPath();
+      for (j = 0; j < rows - 1; j++) {
+        for (i = 0; i < cols - 1; i++) {
+          var a = vals[j * cols + i], b = vals[j * cols + i + 1],
+              c = vals[(j + 1) * cols + i + 1], d = vals[(j + 1) * cols + i];
+          var idx = (a > L ? 8 : 0) | (b > L ? 4 : 0) | (c > L ? 2 : 0) | (d > L ? 1 : 0);
+          if (idx === 0 || idx === 15) continue;
+          var x0 = i * cell, y0 = j * cell, x1 = x0 + cell, y1 = y0 + cell;
+          var tx = x0 + (L - a) / (b - a) * cell, ty = y0;
+          var rx = x1, ry = y0 + (L - b) / (c - b) * cell;
+          var bx = x0 + (L - d) / (c - d) * cell, by = y1;
+          var lx = x0, ly = y0 + (L - a) / (d - a) * cell;
+          switch (idx) {
+            case 1: case 14: seg(lx, ly, bx, by); break;
+            case 2: case 13: seg(bx, by, rx, ry); break;
+            case 3: case 12: seg(lx, ly, rx, ry); break;
+            case 4: case 11: seg(tx, ty, rx, ry); break;
+            case 5: seg(tx, ty, rx, ry); seg(lx, ly, bx, by); break;
+            case 6: case 9: seg(tx, ty, bx, by); break;
+            case 7: case 8: seg(tx, ty, lx, ly); break;
+            case 10: seg(tx, ty, lx, ly); seg(rx, ry, bx, by); break;
+          }
+        }
+      }
+      ctx.strokeStyle = major ? 'rgba(53,224,210,.5)' : 'rgba(53,224,210,.2)';
+      ctx.lineWidth = major ? 1.3 : 0.9;
+      ctx.stroke();
+    }
+    if (readout && frame++ % 6 === 0) {
+      var rx2 = P.amp > 0.05 ? P.x : W * 0.7, ry2 = P.amp > 0.05 ? P.y : H * 0.45;
+      var z = field(rx2, ry2, tt);
+      readout.textContent = 'x ' + (rx2 / 64).toFixed(2) + '   y ' + (ry2 / 64).toFixed(2) + '   z ' + (z >= 0 ? '+' : '−') + Math.abs(z).toFixed(2);
+    }
+  }
+  function loop(t) {
+    raf = requestAnimationFrame(loop);
+    if (t - last < 33) return;
+    last = t; draw(t);
+  }
+  function start() { if (!reduce && !raf && visible && !document.hidden) raf = requestAnimationFrame(loop); }
+  function stop() { if (raf) { cancelAnimationFrame(raf); raf = 0; } }
+  function resize() {
+    var r = cv.getBoundingClientRect(), dpr = Math.min(window.devicePixelRatio || 1, 2);
+    W = r.width; H = r.height;
+    cv.width = Math.round(W * dpr); cv.height = Math.round(H * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    cell = W < 600 ? 22 : 18;
+    cols = Math.ceil(W / cell) + 1; rows = Math.ceil(H / cell) + 1;
+    vals = new Float32Array(cols * rows);
+    P.x = P.tx = W * 0.7; P.y = P.ty = H * 0.45;
+    draw(reduce ? 4000 : performance.now());
+  }
+  window.addEventListener('resize', resize);
+  resize();
+
+  if (!reduce) {
+    hero.addEventListener('pointermove', function (e) {
+      var r = hero.getBoundingClientRect();
+      P.tx = e.clientX - r.left; P.ty = e.clientY - r.top; P.on = true;
+    });
+    hero.addEventListener('pointerleave', function () { P.on = false; });
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function (en) { visible = en[0].isIntersecting; visible ? start() : stop(); }).observe(hero);
+    }
+    document.addEventListener('visibilitychange', function () { document.hidden ? stop() : start(); });
+    start();
+  }
+})();
+</script>
+</body>
+</html>

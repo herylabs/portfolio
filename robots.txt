@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hery5993.github.io/herimalala/sitemap.xml
